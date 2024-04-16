@@ -7,6 +7,7 @@ This overlay supports horizontal scrolling for long song names. It's setup to au
 ## Installation
 
 1. Copy the contents of `SongNameOverlay/resources` folder from this repository into the `Ragnarock` folder in your Streamer.bot folder (create it if it doesn't exist there).
+    
     ![ragnarock folder](ragnarock_folder.png)
 2. Import `RagnarockSongNameOverlay.bot` into Streamer.bot to add the actions necessary to update the overlay.
 ![alt text](import.png)
