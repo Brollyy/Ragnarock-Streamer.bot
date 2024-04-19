@@ -47,7 +47,7 @@ Each feature in this repository is a standalone group of actions/commands for a 
 Specific installation steps for each are in README files specific to each feaure, which you can also access via the links below:
 
 1. [Overlay for displaying current song name and artist](SongNameOverlay/README.md)
-2. [Interaction commands - TODO](/README.md)
+2. [Interaction commands](InteractionCommands/README.md)
 3. [Overlay for displaying perfects / accuracy - TODO](/README.md)
 
 ## Contact

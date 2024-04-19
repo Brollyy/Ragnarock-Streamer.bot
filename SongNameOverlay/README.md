@@ -13,3 +13,11 @@ This overlay supports horizontal scrolling for long song names. It's setup to au
 ![alt text](import.png)
 3. In OBS, create a new Browser source for the `Ragnarock/ragnarock_overlay.html` local file in your Streamer.bot installation folder, with `400` width, `200` height. You can set it to refresh browser when scene becomes active as well.
 ![obs source](obs.png)
+
+## Known issues
+
+If the `Ragnarock/ragnarock_overlay.html` file is not updating, but the actions are triggered, you might need to change the path to the file inside of the C# code of the action `RagnarockSongOverlay` in the line 110:
+```
+File.WriteAllText("Ragnarock/ragnarock_overlay.html", sb.ToString());
+```
+Instead of `Ragnarock/ragnarock_overlay.html`, enter the full path to the file in there and click Save and Compile.
